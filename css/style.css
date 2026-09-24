@@ -1,0 +1,68 @@
+* {
+    font-family: serif;
+}
+header{
+    background-color: whitesmoke;
+    text-align: center;
+    border: black;
+    border-radius: 2px;
+    padding: 10px 40px;
+    margin: 0;
+    box-shadow: 0px 1px 1px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+main{
+    background-color: white;
+    padding: 0;
+}
+
+section{
+    background-color: white;
+    padding: 40px 20px;
+}
+
+#Введение {
+    background-color: whitesmoke;
+    padding: 0 0 20px;
+    margin: 0;
+    border: black;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#loginreg {
+    background-color: whitesmoke;
+    border: black;
+    border-radius: 2px;
+    margin: 0;
+    box-shadow: 0px 1px 1px;
+    color: black;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: whitesmoke;
+    padding: 0 0 20px;
+    margin: 0;
+    text-align: center;
+    border: black;
+    border-radius: 2px;
+    box-shadow: 0px 1px 1px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
