@@ -81,6 +81,47 @@ section{
     text-decoration: none;
 }
 
+
+#contact-form input[type="text"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: black solid 1px;
+    background-color: white;
+    font-style: italic;
+}
+
+#contact-form input[type="submit"]{
+    height: 40px;
+    width: 150px;
+    border: black solid 1px;
+    background-color: white;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#textarea {
+    height: 100px;
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: black solid 1px;
+    background-color: white;
+    font-style: italic;
+}
+
+#contact-form input[type="submit"]:hover{
+    height: 40px;
+    width: 150px;
+    border: black solid 1px;
+    background-color: silver;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 li:nth-child(odd) {
   background-color: whitesmoke;
 }
@@ -123,38 +164,6 @@ td:nth-child(1) {
 td:nth-child(4) {
     text-align: right;
 }
-
-#contact-form input[type="text"]{
-    height: 20px;
-    width: 250px;
-    padding: 5px;
-    margin-bottom: 10px;
-    border: white solid 1px;
-    background-color: whitesmoke;
-    font-style: italic;
-}
-
-#contact-form input[type="submit"]{
-    height: 40px;
-    width: 150px;
-    border: black solid 1px;
-    background-color: silver;
-    font-style: italic;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-#contact-form input[type="submit"]:hover{
-    height: 40px;
-    width: 150px;
-    border: black solid 1px;
-    background-color: white;
-    font-style: italic;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-
 
 footer {
     background-color: whitesmoke;
