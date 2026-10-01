@@ -2,8 +2,29 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ада Лавлейс</title>
+        <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4285f4" />
+
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4285f4" />
+
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-transcluent" />
+
+    <!-- Яндекс.Браузер -->
+    <meta name="viewport" content="ya-title=#000000,ya-dock=fade" />
+    <meta property="og:title" content="Лавлейс: Главная страница">
+    <meta property="og:site_name" content="Сайт Верстальщика: Ада Лавлейс">
+    <meta property="og:url" content="https://ada_lavleis.ru">
+    <meta property="og:description" content="Страница сайта, посвященная Аде Лавлейс">
+    <meta property="og:image" content="https://ada_lavleis.ru/images/logo.jpg">
+
+    <meta name="keywords" content="Ада, Лавлейс, Биография, Главная, Страница, Кратко">
+    <meta name="description" content="Главная страница сайта, посвященная Аде Лавлейс">
+    <link rel="icon" type="image/ico" sizes="32x32" href="images/logo.jpg">
+    <link rel="icon" type="image/ico" sizes="32x32" href="images/logo.jpg">
+    <link rel="shortcut icon" sizes="16x16" href="images/logo.jpg"><title>Лавлейс: Главная страница</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -84,7 +105,7 @@
     </section>
     <section class="contact" id="contact-id">
         <h2>Обратная связь</h2>
-        <form id="contact-form"action="">
+        <form id="contact-form" action="">
             <div class="form_item">
                 <label for="topic">Тема</label><br>
                 <select name="topic" id="topic">
@@ -96,16 +117,20 @@
                 </select>
             </div>
             <div class="form_item">
-                <label for="login">Логин</label><br>
-                <input type="text" placeholder="Login" name="login" id="login"><br>
+                <label for="email">Почта</label><br>
+                <input type="email" placeholder="You're Email" name="email" id="email" required><br>
             </div>
             <div class="form_item">
                 <label for="password">Введите пароль</label><br> 
-                <input type="password" placeholder="Password" name="password" id="pass"><br><br>
+                <input type="password" placeholder="Password" name="password" id="pass" required><br><br>
             </div>
             <label for="textarea">
             </label>
-            <textarea id="textarea" rows="3"></textarea><br>
+            <textarea id="textarea" rows="3" placeholder="Text here" required></textarea><br>
+            <div>
+                <input type="checkbox" id="checkbox" required>
+                <label for="checkbox">Согласие с политикой конфиденциальности</label>
+            </div>
             <div class="form_item">
                 <input type="submit" name="Войти">
             </div>

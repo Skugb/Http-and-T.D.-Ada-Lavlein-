@@ -70,13 +70,14 @@ section{
     text-transform: uppercase;
 }
 
-#loginreg {
+#contact-form {
     background-color: whitesmoke;
     border: black;
     border-radius: 2px;
     margin: 0;
     box-shadow: 0px 1px 1px;
     color: black;
+    font-style: italic;
     text-decoration: none;
 }
 
@@ -123,7 +124,6 @@ td:nth-child(4) {
     text-align: right;
 }
 
-
 #contact-form input[type="text"]{
     height: 20px;
     width: 250px;
@@ -131,6 +131,27 @@ td:nth-child(4) {
     margin-bottom: 10px;
     border: white solid 1px;
     background-color: whitesmoke;
+    font-style: italic;
+}
+
+#contact-form input[type="submit"]{
+    height: 40px;
+    width: 150px;
+    border: black solid 1px;
+    background-color: silver;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#contact-form input[type="submit"]:hover{
+    height: 40px;
+    width: 150px;
+    border: black solid 1px;
+    background-color: white;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 
