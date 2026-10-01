@@ -27,6 +27,52 @@
         <p><h2><center><q>Чем больше я учусь, тем ненасытнее я чувствую свою гениальность</q></center></h2></p>
         <p><h3><center>- Ада Лавлейс</center></h3></p>
     </section>
+    <section class="table_section" id="table_section_id">
+    <table>
+    <caption><h2>Биография кратко</h2></caption>
+        <thead>
+            <tr>
+                <th>Событие</th>
+                <th>Дата</th>
+                <th>Место</th>
+                <th>Значимые факты</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Рождение</td>
+                <td>10 декабря 1815 года</td>
+                <td>Лондон, Англия</td>
+                <td>Дочь поэта Джорджа Байрона и Анны Изабеллы Милбенк. При рождении получила имя Августа Ада.</td>
+            </tr>
+            <tr>
+                <td>Развод родителей</td>
+                <td>21 апреля 1816 года</td>
+                <td>-</td>
+                <td>Лорд Байрон подписал акт о разводе и вскоре покинул Англию. Ада больше не видела отца.</td>
+            </tr>
+            <tr>
+                <td>Замужество</td>
+                <td>1835 год</td>
+                <td></td>
+                <td>Вышла замуж за Уильяма Кинга (позднее — 8-й барон Кинг, затем граф Лавлейс). В браке родились трое детей.</td>
+            </tr>
+            <tr>
+                <td>Научный прорыв</td>
+                <td>1843 год</td>
+                <td>-</td>
+                <td>Ада перевела с французского статью Луиджи Менабреа об аналитической машине Чарльза Бэббиджа. Её обширные комментарии (объём превысил оригинал в три раза) содержали алгоритм для вычисления чисел Бернулли на этой машине — это признано первой компьютерной программой. Она ввела термины «цикл» и «рабочая ячейка».</td>
+            </tr>
+            <tr>
+                <td>Смерть</td>
+                <td>27 ноября 1852 года</td>
+                <td>Лондон, Англия</td>
+                <td>Умерла в возрасте 36 лет от рака матки. Причиной смерти стала кровопотеря из-за кровопускания, которое пытались применить при лечении. Похоронена в фамильном склепе Байронов.</td>
+            </tr>
+        </tbody>
+    </table>
+    </section>
+
     <section class="Info" id="Info">
     <h2><center>Информация</center></h2>
     <ul>
@@ -36,17 +82,33 @@
         <h2><li id="term"><a href="./Термины.html">Список терминов</a></li></h2>
     </ul>
     </section>
-    <section class="LogReg" id="loginreg">
+    <section class="contact" id="contact-id">
         <h2>Обратная связь</h2>
-        <form action="">
-            <label for="login">Введите логин</label><br>
-            <input type="text" placeholder="Login" name="login" id="login"><br>
-            <label for="password">Введите пароль</label><br>
-            <input type="password" placeholder="Password" name="password" id="pass"><br><br>
-                        <label for="textarea">
+        <form id="contact-form"action="">
+            <div class="form_item">
+                <label for="topic">Тема</label><br>
+                <select name="topic" id="topic">
+                    <option value="1">Отзыв и предложения о статье</option>
+                    <option value="2">Найдена ошибка в содержании статьи</option>
+                    <option value="3">Найдена ошибка в содержании сайта</option>
+                    <option value="4">Проблема с загрузкой контента</option>
+                    <option value="5">Проблема с оплатой</option>
+                </select>
+            </div>
+            <div class="form_item">
+                <label for="login">Логин</label><br>
+                <input type="text" placeholder="Login" name="login" id="login"><br>
+            </div>
+            <div class="form_item">
+                <label for="password">Введите пароль</label><br> 
+                <input type="password" placeholder="Password" name="password" id="pass"><br><br>
+            </div>
+            <label for="textarea">
             </label>
             <textarea id="textarea" rows="3"></textarea><br>
-            <input type="submit" name="Войти">
+            <div class="form_item">
+                <input type="submit" name="Войти">
+            </div>
         </form>
 
     </section>
@@ -58,9 +120,9 @@
             <a href="mailto:immudahcmo@gmail.com"><h4>Mail: immudahcmo@gmail.com</h4></a>
             <h3>Источники информации:</h3>
             <ul>
-            <li><a href="https://www.forbes.ru/forbes-woman/464263-carodejka-cisel-kak-ada-lavlejs-dala-nacalo-programmirovaniu-i-okazalas-zabyta" target="_blank"><img src="./images/Форбс.jpg" alt="Forbes"></a></li>
-            <li><a href="https://habr.com/ru/companies/itglobalcom/articles/734762/"><img src="./images/Хабр.jpg" alt="Habr" target="_blank"></a></li>
-            <li><a href="https://www.vokrugsveta.ru/articles/doch-bairona-i-lyubitelnica-azartnykh-igr-kem-byla-zhenshina-sozdavshaya-pervuyu-programmu-id743262/" target="_blank"><img src="./images/Риа.jpg" alt="Риа"></a></li>
+            <li><a href="https://www.forbes.ru/forbes-woman/464263-carodejka-cisel-kak-ada-lavlejs-dala-nacalo-programmirovaniu-i-okazalas-zabyta" target="_blank" id="i"><img src="./images/Форбс.jpg" alt="Forbes" id="icon"></a></li>
+            <li><a href="https://habr.com/ru/companies/itglobalcom/articles/734762/"><img src="./images/Хабр.jpg" alt="Habr" target="_blank" id="icon"></a></li>
+            <li><a href="https://www.vokrugsveta.ru/articles/doch-bairona-i-lyubitelnica-azartnykh-igr-kem-byla-zhenshina-sozdavshaya-pervuyu-programmu-id743262/" target="_blank"><img src="./images/Риа.jpg" alt="Риа" id="icon"></a></li>
             </ul>
     </footer>
 </body>

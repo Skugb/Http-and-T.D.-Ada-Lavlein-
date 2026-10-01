@@ -15,18 +15,34 @@ header{
     
 }
 
+h3 {
+  font-family: "Bad Script", cursive;
+  font-style: normal;
+  font-weight: 600;
+}
+
+h2 {
+    font-weight: 600;
+    text-decoration: dashed;
+}
+
 .lead-paragraph::first-line {
   letter-spacing: 2px;
 }
 
 p:lang(ru) {
-    color: black;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 1em;
 }
+
 p:lang(en) {
     color: black;
     font-style: italic;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 1em;
 }
-
 
 main{
     background-color: white;
@@ -36,6 +52,10 @@ main{
 section{
     background-color: white;
     padding: 40px 20px;
+}
+
+#Introduction {
+    background-color: rgb(255, 245, 245);
 }
 
 #Введение {
@@ -75,6 +95,46 @@ li:nth-child(odd) {
   margin-left: 10px;
 }
 
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+td,th{
+    border: 2px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
+tr:nth-child(odd) {
+  background-color: #fff;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+td:nth-child(2) {
+    background-color: #E8E8FF;
+}
+td:nth-child(1) {
+    font-weight: bold;
+    text-align: center;
+}
+td:nth-child(4) {
+    text-align: right;
+}
+
+
+#contact-form input[type="text"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: whitesmoke;
+}
+
+
+
 footer {
     background-color: whitesmoke;
     padding: 0 0 20px;
@@ -86,7 +146,19 @@ footer {
     color: black;
     text-decoration: none;
     text-transform: uppercase;
+    
 }
+
+#icon{
+  border: 2px solid #007bff;
+  padding: 5px;
+  background-color: #fff;
+}
+
+img + p {
+    margin-top: 10px;
+}
+
 
 a:hover, a:focus{
     color: red;
